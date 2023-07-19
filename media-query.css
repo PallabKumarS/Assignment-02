@@ -38,8 +38,9 @@
         margin-bottom: 30px;
     }
         .ban-1-info {
-            width: 90vw;
-            margin-right: 3vw;
+            width: 80vw;
+            margin-left: 10vw;
+            margin-right: 2vw;
             padding: 7vw 16vw 7vw 12vw;
             justify-content: start;
         }

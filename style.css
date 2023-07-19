@@ -246,7 +246,7 @@ body{
 }
 .vid-block-info:hover .vid-overlay{
     opacity: 1;
-    border: 1px solid #FF42A5;
+    border: 2px solid #FF42A5;
 }
 .vid-img{
     display: block;
@@ -399,7 +399,7 @@ body{
     border-radius: 2.4vw;
     background: #FFF;
     border: none;
-    color: rgba(250, 15, 137, 0.76);
+    color:#FF42A5;
 }
 .car-img-cont{
     padding: 0;
@@ -438,11 +438,10 @@ body{
 }
 .games-block:hover{
     cursor: pointer;
-    border:1px solid #FF42A5;
-    color: #FF42A5;
-}
-.games-text:hover{
-    color: #FF42A5;
+    outline:2px solid #FF42A5;
+    background: var(--color-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* footer here  */
 .ft-cont{
