@@ -26,45 +26,53 @@
 
     .li-text {
         text-align: center;
-        font-size: 1.8vw;
+        font-size: 2vw;
         font-weight: 600;
         margin-right: 1.2vw;
         margin-left: 1.2vw;
     }
 
     .banner-1-cont {
-        margin-left: 30px;
+        margin-left: 10px;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
     }
+
+        .ban-1-block {
+            width: 75vw;
+            margin-left: 7vw;
+            justify-content: center;
+        }
+    
+        .ban-img {
+            width: 100%;
+        }
         .ban-1-info {
             width: 80vw;
-            margin-left: 10vw;
-            margin-right: 2vw;
-            padding: 7vw 16vw 7vw 12vw;
-            justify-content: start;
+            text-align: start;
+            margin-left: 4vw;
         }
     
         .ban-1-title {
             color: #0B0223;
             text-align: start;
-            font-size: 4vw;
+            font-size: 5vw;
             font-weight: 600;
             width: 40vw;
+            margin-left: .6vw;
         }
     
         .ban-1-title-2 {
             background: var(--color-1);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            font-size: 9vw;
+            font-size: 10vw;
             font-weight: 800;
             width: 40vw;
             display: flex;
             align-items: baseline;
-            padding: 0;
-            left: -.4vw;
-            position: relative;
         }
     
         .ball {
@@ -76,7 +84,6 @@
     
         .ban-1-list {
             list-style: none;
-            padding: 0;
         }
     
         .fa-solid,
@@ -84,18 +91,23 @@
             background: var(--color-1);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-right: .6vw;
+            font-size: 20px;
+            margin-right: 5px;
+            margin-left: .5vw;
         }
     
         .ban-li {
             color: #534C64;
             font-size: 3vw;
             font-weight: 500;
-            margin-bottom: .8vw;
+            margin-bottom: 10px;
+            text-align: left;
         }
     
         .ban-1-btn {
             width: 80vw;
+            align-items: start;
+            margin-top: 10px;
         }
     
         .ban-btn-1 {
@@ -107,7 +119,8 @@
             font-size: 3vw;
             font-weight: 600;
         }
-    
+
+
         .ban-btn-2 {
             padding: 2vw 4vw;
             border-radius: 2.4vw;
@@ -138,7 +151,8 @@
     
         .ban-2-info {
             width: 60vw;
-            text-align: end;
+            text-align: center;
+            margin-left: 6vw;
         }
     
         .ban-2-title {
@@ -244,12 +258,13 @@
             align-items: center;
             justify-content: space-between;
             margin-left: 21vw;
-            margin-bottom: 10vw;
+            margin-bottom: 20vw;
         }
     
         .play-info-1 {
             text-align: right;
             width: 35vw;
+            margin-right: 5.5vw;
         }
     
         .play-title-1 {
@@ -272,7 +287,6 @@
             height: 50vw;
             right: -3vw;
             margin-top: 20px;
-            margin-bottom: 20px;
         }
     
         .play-img-2 {
@@ -290,19 +304,19 @@
             justify-content: center;
             margin-right: 15vw;
             margin-left: 12vw;
-            margin-bottom: 12vw;
+            margin-bottom: 0;
         }
     
         .play-info-2 {
             text-align: left;
             width: 45vw;
+            margin-right: 26vw;
         }
     
         .play-title-2 {
             font-size: 5vw;
             font-weight: 700;
             line-height: 5vw;
-            margin-bottom: 1.2vw;
         }
     
         .play-text-2 {
@@ -317,7 +331,6 @@
             position: relative;
             width: 50vw;
             height: 50vw;
-            margin-bottom: 20px;
         }
     
         .play-img-4 {
@@ -325,7 +338,7 @@
             width: 25vw;
             height: 30vw;
             right: -36vw;
-            bottom: 30vw;
+            bottom: 20vw;
         }
         .career-cont {
             display: flex;
@@ -444,9 +457,16 @@
             grid-template-columns: repeat(3, 1fr);
             align-items: center;
             justify-content: center;
+            text-align: center;
             gap: 3vw 1vw;
-            margin: 0 36vw;
             margin-bottom: 3.3vw;
+            font-size: 3vw;
+        }
+    
+        .ft-li-icons {
+            color: white;
+            list-style: none;
+            font-size: 4vw;
         }
     
         .ft-info-2 {

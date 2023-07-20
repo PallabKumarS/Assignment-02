@@ -87,7 +87,7 @@ body{
     width: 100%;
 }
 .ban-1-info{
-    width: 45vw;
+    width: 50vw;
     margin-right:3vw;
     padding:7vw 16vw 7vw 12vw;
     justify-content: start;
@@ -127,6 +127,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-right: .6vw;
+    font-size: 1.5vw;
 }
 .ban-li{
     color: #534C64;
@@ -163,7 +164,7 @@ body{
 }
 .ban-2-block{
     width: 43vw;
-    margin: 2.8vw 2.5vw 2.8vw 12vw;
+    margin: 2.8vw 2.5vw 2.8vw 9vw;
 }
 .ban-2-img{
     width: 100%;
@@ -215,7 +216,6 @@ body{
 .vid-block{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     text-align: center;
     margin: 2.4vw 12vw 6vw;
     gap: 1.2vw 0;
@@ -254,10 +254,6 @@ body{
     height: 20vw;
     border-radius: 0.8vw;
     margin-bottom: 1.2vw;
-}
-#img-3{
-    position: relative;
-    bottom: 0.6vw;
 }
 .vid-text{
     width: 17.3vw;
@@ -336,7 +332,7 @@ body{
 }
 .play-img-3 {
     position: relative;
-    width: 35vw;
+    width: 32vw;
     height: 32vw;
     left: 1vw;
 }
@@ -345,7 +341,7 @@ body{
     width: 15vw;
     height: 18vw;
     right: 8vw;
-    bottom: -6.2vw;
+    bottom: -6.5vw;
 }
 /* section career here  */
 .career-cont {
@@ -486,6 +482,7 @@ body{
 .ft-li-icons{
     color: white;
     list-style: none;
+    font-size: 2.5vw;
 }
 .ft-info-2{
     display: grid;
